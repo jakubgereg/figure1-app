@@ -13,3 +13,7 @@ npm start
 ```
 npm test
 ```
+
+## See it in action:
+
+https://figure1-app.herokuapp.com/
