@@ -1,0 +1,39 @@
+@import "../../styles/shared.scss";
+
+.links {
+  display: inline-block;
+  margin: 0;
+  > span {
+    display: inline-block;
+    padding-right: 17px;
+  }
+  > span.link:hover {
+    cursor: pointer;
+    color: inherit;
+    &:hover {
+      color: $purple-color;
+    }
+  }
+  .star {
+    &.active {
+      color: $purple-color;
+    }
+  }
+  .star:before,
+  .views:before,
+  .follow:before {
+    font-family: FontAwesome;
+    opacity: 1;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .star:before {
+    content: "\f005";
+  }
+  .views:before {
+    content: "\f06e";
+  }
+  .follow:before {
+    content: "\f0c0";
+  }
+}

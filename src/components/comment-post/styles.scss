@@ -1,0 +1,19 @@
+@import "../../styles/shared.scss";
+
+.comment-post {
+  .author-header {
+    > * {
+      display: inline-block;
+    }
+    .author {
+      margin-right: 5px;
+      font-weight: bold;
+    }
+  }
+  .comment-content {
+    padding: 10px 5px;
+  }
+
+  border-top: 1px dashed $super-light-gray;
+  padding: 10px;
+}

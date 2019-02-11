@@ -1,0 +1,1702 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BlogPostDetail
+    caption="hello"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="left-side"
+        >
+          <h2>
+            hello
+          </h2>
+          <div
+            className="post-info"
+          >
+            <Author />
+            <div
+              className="separator"
+            >
+              |
+            </div>
+            <PostInfo
+              caption="hello"
+            />
+          </div>
+          <img />
+          <div
+            className="text"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id venenatis felis. Integer ullamcorper consectetur nisl, sed faucibus nunc malesuada nec. Praesent in massa ornare, lacinia ex at, lobortis enim. Nullam mi justo, pharetra sit amet mollis quis, viverra quis ex. Nam sit amet euismod mi. Mauris a est in dolor pharetra consectetur vitae vel felis. In eleifend libero vitae sollicitudin vulputate. Aenean feugiat, nunc vel facilisis lacinia, leo elit efficitur erat, et fringilla nunc risus at ipsum.
+            </p>
+            <p>
+              Nunc pulvinar augue et rutrum scelerisque. Morbi cursus dolor nibh, eget suscipit leo iaculis at. Praesent nec nisl ultrices, faucibus dolor a, iaculis erat. Morbi commodo placerat condimentum. Etiam tincidunt eros vitae velit euismod, non imperdiet eros cursus. Duis dolor sapien, tristique nec tincidunt id, semper sit amet felis. Aliquam sit amet purus neque. Pellentesque vitae eros in felis ullamcorper suscipit non eu orci. Integer non aliquam nisl, vitae elementum est. Integer scelerisque orci erat, ac pharetra est pulvinar nec.
+            </p>
+            <p>
+              Vestibulum sollicitudin tellus est, ac ultrices justo iaculis a. Integer eleifend justo a congue iaculis. Nam semper lobortis sollicitudin. Phasellus dolor ex, bibendum nec consequat a, accumsan non tellus. Etiam neque libero, congue quis dui non, fermentum blandit ex. Curabitur luctus mollis nunc eget ultricies. Vivamus id augue vitae felis bibendum ultrices. Nam laoreet eget nisl eu interdum. Phasellus iaculis lacus velit, a aliquet odio semper quis. Donec convallis ut enim sit amet consectetur. Duis finibus arcu at vestibulum vestibulum. Aliquam quis ante nec odio convallis feugiat. Morbi nunc mauris, ultrices nec velit vitae, tincidunt tincidunt nisi.
+            </p>
+            <p>
+              Etiam lobortis posuere sagittis. Pellentesque a gravida justo. Nullam tincidunt tristique lobortis. Phasellus iaculis nisl tristique, finibus nulla ac, efficitur elit. Etiam odio ipsum, dapibus at lorem sed, tincidunt vulputate sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum turpis ac erat facilisis porttitor. Maecenas nibh nibh, pellentesque in condimentum vitae, vehicula in lacus. Maecenas a porttitor sem. Integer at condimentum elit. Praesent semper nisi enim, euismod commodo libero porta non. Sed condimentum elit sit amet feugiat condimentum. Nunc dapibus eros id nisl feugiat condimentum. Proin consectetur consequat porttitor. Vivamus bibendum id nisi non ullamcorper. Suspendisse luctus risus ac lectus elementum pellentesque.
+            </p>
+          </div>
+          <div
+            className="comments-list"
+          >
+            <h3>
+              Comments
+            </h3>
+          </div>
+        </div>,
+        <div
+          className="side-info"
+        >
+          <div
+            className="section-wrapper"
+          >
+            <h3>
+              Related blog posts
+            </h3>
+            <div
+              className="links-wrapper"
+            >
+              <a
+                href="#"
+              >
+                Sed ullamcorper condimentum mauris
+              </a>
+              <a
+                href="#"
+              >
+                Ac tristique ante vestibulum et
+              </a>
+              <a
+                href="#"
+              >
+                Ante vestibulum et vestibulum eleifend
+              </a>
+              <a
+                href="#"
+              >
+                Tristique tortor In pellentesque
+              </a>
+              <a
+                href="#"
+              >
+                Lacus vel imperdiet sed ullamcorper
+              </a>
+              <a
+                href="#"
+              >
+                More...
+              </a>
+            </div>
+          </div>
+          <div
+            className="section-wrapper"
+          >
+            <h3>
+              Not so related blog posts
+            </h3>
+            <div
+              className="links-wrapper"
+            >
+              <a
+                href="#"
+              >
+                Sed ullamcorper condimentum mauris
+              </a>
+              <a
+                href="#"
+              >
+                Ac tristique ante vestibulum et
+              </a>
+              <a
+                href="#"
+              >
+                Ante vestibulum et vestibulum eleifend
+              </a>
+              <a
+                href="#"
+              >
+                Tristique tortor In pellentesque
+              </a>
+              <a
+                href="#"
+              >
+                Lacus vel imperdiet sed ullamcorper
+              </a>
+              <a
+                href="#"
+              >
+                More...
+              </a>
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "post-detail",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              hello
+            </h2>,
+            <div
+              className="post-info"
+            >
+              <Author />
+              <div
+                className="separator"
+              >
+                |
+              </div>
+              <PostInfo
+                caption="hello"
+              />
+            </div>,
+            <img />,
+            <div
+              className="text"
+            >
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id venenatis felis. Integer ullamcorper consectetur nisl, sed faucibus nunc malesuada nec. Praesent in massa ornare, lacinia ex at, lobortis enim. Nullam mi justo, pharetra sit amet mollis quis, viverra quis ex. Nam sit amet euismod mi. Mauris a est in dolor pharetra consectetur vitae vel felis. In eleifend libero vitae sollicitudin vulputate. Aenean feugiat, nunc vel facilisis lacinia, leo elit efficitur erat, et fringilla nunc risus at ipsum.
+              </p>
+              <p>
+                Nunc pulvinar augue et rutrum scelerisque. Morbi cursus dolor nibh, eget suscipit leo iaculis at. Praesent nec nisl ultrices, faucibus dolor a, iaculis erat. Morbi commodo placerat condimentum. Etiam tincidunt eros vitae velit euismod, non imperdiet eros cursus. Duis dolor sapien, tristique nec tincidunt id, semper sit amet felis. Aliquam sit amet purus neque. Pellentesque vitae eros in felis ullamcorper suscipit non eu orci. Integer non aliquam nisl, vitae elementum est. Integer scelerisque orci erat, ac pharetra est pulvinar nec.
+              </p>
+              <p>
+                Vestibulum sollicitudin tellus est, ac ultrices justo iaculis a. Integer eleifend justo a congue iaculis. Nam semper lobortis sollicitudin. Phasellus dolor ex, bibendum nec consequat a, accumsan non tellus. Etiam neque libero, congue quis dui non, fermentum blandit ex. Curabitur luctus mollis nunc eget ultricies. Vivamus id augue vitae felis bibendum ultrices. Nam laoreet eget nisl eu interdum. Phasellus iaculis lacus velit, a aliquet odio semper quis. Donec convallis ut enim sit amet consectetur. Duis finibus arcu at vestibulum vestibulum. Aliquam quis ante nec odio convallis feugiat. Morbi nunc mauris, ultrices nec velit vitae, tincidunt tincidunt nisi.
+              </p>
+              <p>
+                Etiam lobortis posuere sagittis. Pellentesque a gravida justo. Nullam tincidunt tristique lobortis. Phasellus iaculis nisl tristique, finibus nulla ac, efficitur elit. Etiam odio ipsum, dapibus at lorem sed, tincidunt vulputate sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum turpis ac erat facilisis porttitor. Maecenas nibh nibh, pellentesque in condimentum vitae, vehicula in lacus. Maecenas a porttitor sem. Integer at condimentum elit. Praesent semper nisi enim, euismod commodo libero porta non. Sed condimentum elit sit amet feugiat condimentum. Nunc dapibus eros id nisl feugiat condimentum. Proin consectetur consequat porttitor. Vivamus bibendum id nisi non ullamcorper. Suspendisse luctus risus ac lectus elementum pellentesque.
+              </p>
+            </div>,
+            <div
+              className="comments-list"
+            >
+              <h3>
+                Comments
+              </h3>
+            </div>,
+          ],
+          "className": "left-side",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "hello",
+            },
+            "ref": null,
+            "rendered": "hello",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Author />,
+                <div
+                  className="separator"
+                >
+                  |
+                </div>,
+                <PostInfo
+                  caption="hello"
+                />,
+              ],
+              "className": "post-info",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "image": undefined,
+                  "username": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "|",
+                  "className": "separator",
+                },
+                "ref": null,
+                "rendered": "|",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "caption": "hello",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "src": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id venenatis felis. Integer ullamcorper consectetur nisl, sed faucibus nunc malesuada nec. Praesent in massa ornare, lacinia ex at, lobortis enim. Nullam mi justo, pharetra sit amet mollis quis, viverra quis ex. Nam sit amet euismod mi. Mauris a est in dolor pharetra consectetur vitae vel felis. In eleifend libero vitae sollicitudin vulputate. Aenean feugiat, nunc vel facilisis lacinia, leo elit efficitur erat, et fringilla nunc risus at ipsum.
+                </p>,
+                <p>
+                  Nunc pulvinar augue et rutrum scelerisque. Morbi cursus dolor nibh, eget suscipit leo iaculis at. Praesent nec nisl ultrices, faucibus dolor a, iaculis erat. Morbi commodo placerat condimentum. Etiam tincidunt eros vitae velit euismod, non imperdiet eros cursus. Duis dolor sapien, tristique nec tincidunt id, semper sit amet felis. Aliquam sit amet purus neque. Pellentesque vitae eros in felis ullamcorper suscipit non eu orci. Integer non aliquam nisl, vitae elementum est. Integer scelerisque orci erat, ac pharetra est pulvinar nec.
+                </p>,
+                <p>
+                  Vestibulum sollicitudin tellus est, ac ultrices justo iaculis a. Integer eleifend justo a congue iaculis. Nam semper lobortis sollicitudin. Phasellus dolor ex, bibendum nec consequat a, accumsan non tellus. Etiam neque libero, congue quis dui non, fermentum blandit ex. Curabitur luctus mollis nunc eget ultricies. Vivamus id augue vitae felis bibendum ultrices. Nam laoreet eget nisl eu interdum. Phasellus iaculis lacus velit, a aliquet odio semper quis. Donec convallis ut enim sit amet consectetur. Duis finibus arcu at vestibulum vestibulum. Aliquam quis ante nec odio convallis feugiat. Morbi nunc mauris, ultrices nec velit vitae, tincidunt tincidunt nisi.
+                </p>,
+                <p>
+                  Etiam lobortis posuere sagittis. Pellentesque a gravida justo. Nullam tincidunt tristique lobortis. Phasellus iaculis nisl tristique, finibus nulla ac, efficitur elit. Etiam odio ipsum, dapibus at lorem sed, tincidunt vulputate sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum turpis ac erat facilisis porttitor. Maecenas nibh nibh, pellentesque in condimentum vitae, vehicula in lacus. Maecenas a porttitor sem. Integer at condimentum elit. Praesent semper nisi enim, euismod commodo libero porta non. Sed condimentum elit sit amet feugiat condimentum. Nunc dapibus eros id nisl feugiat condimentum. Proin consectetur consequat porttitor. Vivamus bibendum id nisi non ullamcorper. Suspendisse luctus risus ac lectus elementum pellentesque.
+                </p>,
+              ],
+              "className": "text",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id venenatis felis. Integer ullamcorper consectetur nisl, sed faucibus nunc malesuada nec. Praesent in massa ornare, lacinia ex at, lobortis enim. Nullam mi justo, pharetra sit amet mollis quis, viverra quis ex. Nam sit amet euismod mi. Mauris a est in dolor pharetra consectetur vitae vel felis. In eleifend libero vitae sollicitudin vulputate. Aenean feugiat, nunc vel facilisis lacinia, leo elit efficitur erat, et fringilla nunc risus at ipsum.",
+                },
+                "ref": null,
+                "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id venenatis felis. Integer ullamcorper consectetur nisl, sed faucibus nunc malesuada nec. Praesent in massa ornare, lacinia ex at, lobortis enim. Nullam mi justo, pharetra sit amet mollis quis, viverra quis ex. Nam sit amet euismod mi. Mauris a est in dolor pharetra consectetur vitae vel felis. In eleifend libero vitae sollicitudin vulputate. Aenean feugiat, nunc vel facilisis lacinia, leo elit efficitur erat, et fringilla nunc risus at ipsum.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Nunc pulvinar augue et rutrum scelerisque. Morbi cursus dolor nibh, eget suscipit leo iaculis at. Praesent nec nisl ultrices, faucibus dolor a, iaculis erat. Morbi commodo placerat condimentum. Etiam tincidunt eros vitae velit euismod, non imperdiet eros cursus. Duis dolor sapien, tristique nec tincidunt id, semper sit amet felis. Aliquam sit amet purus neque. Pellentesque vitae eros in felis ullamcorper suscipit non eu orci. Integer non aliquam nisl, vitae elementum est. Integer scelerisque orci erat, ac pharetra est pulvinar nec.",
+                },
+                "ref": null,
+                "rendered": "Nunc pulvinar augue et rutrum scelerisque. Morbi cursus dolor nibh, eget suscipit leo iaculis at. Praesent nec nisl ultrices, faucibus dolor a, iaculis erat. Morbi commodo placerat condimentum. Etiam tincidunt eros vitae velit euismod, non imperdiet eros cursus. Duis dolor sapien, tristique nec tincidunt id, semper sit amet felis. Aliquam sit amet purus neque. Pellentesque vitae eros in felis ullamcorper suscipit non eu orci. Integer non aliquam nisl, vitae elementum est. Integer scelerisque orci erat, ac pharetra est pulvinar nec.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vestibulum sollicitudin tellus est, ac ultrices justo iaculis a. Integer eleifend justo a congue iaculis. Nam semper lobortis sollicitudin. Phasellus dolor ex, bibendum nec consequat a, accumsan non tellus. Etiam neque libero, congue quis dui non, fermentum blandit ex. Curabitur luctus mollis nunc eget ultricies. Vivamus id augue vitae felis bibendum ultrices. Nam laoreet eget nisl eu interdum. Phasellus iaculis lacus velit, a aliquet odio semper quis. Donec convallis ut enim sit amet consectetur. Duis finibus arcu at vestibulum vestibulum. Aliquam quis ante nec odio convallis feugiat. Morbi nunc mauris, ultrices nec velit vitae, tincidunt tincidunt nisi.",
+                },
+                "ref": null,
+                "rendered": "Vestibulum sollicitudin tellus est, ac ultrices justo iaculis a. Integer eleifend justo a congue iaculis. Nam semper lobortis sollicitudin. Phasellus dolor ex, bibendum nec consequat a, accumsan non tellus. Etiam neque libero, congue quis dui non, fermentum blandit ex. Curabitur luctus mollis nunc eget ultricies. Vivamus id augue vitae felis bibendum ultrices. Nam laoreet eget nisl eu interdum. Phasellus iaculis lacus velit, a aliquet odio semper quis. Donec convallis ut enim sit amet consectetur. Duis finibus arcu at vestibulum vestibulum. Aliquam quis ante nec odio convallis feugiat. Morbi nunc mauris, ultrices nec velit vitae, tincidunt tincidunt nisi.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Etiam lobortis posuere sagittis. Pellentesque a gravida justo. Nullam tincidunt tristique lobortis. Phasellus iaculis nisl tristique, finibus nulla ac, efficitur elit. Etiam odio ipsum, dapibus at lorem sed, tincidunt vulputate sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum turpis ac erat facilisis porttitor. Maecenas nibh nibh, pellentesque in condimentum vitae, vehicula in lacus. Maecenas a porttitor sem. Integer at condimentum elit. Praesent semper nisi enim, euismod commodo libero porta non. Sed condimentum elit sit amet feugiat condimentum. Nunc dapibus eros id nisl feugiat condimentum. Proin consectetur consequat porttitor. Vivamus bibendum id nisi non ullamcorper. Suspendisse luctus risus ac lectus elementum pellentesque.",
+                },
+                "ref": null,
+                "rendered": "Etiam lobortis posuere sagittis. Pellentesque a gravida justo. Nullam tincidunt tristique lobortis. Phasellus iaculis nisl tristique, finibus nulla ac, efficitur elit. Etiam odio ipsum, dapibus at lorem sed, tincidunt vulputate sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum turpis ac erat facilisis porttitor. Maecenas nibh nibh, pellentesque in condimentum vitae, vehicula in lacus. Maecenas a porttitor sem. Integer at condimentum elit. Praesent semper nisi enim, euismod commodo libero porta non. Sed condimentum elit sit amet feugiat condimentum. Nunc dapibus eros id nisl feugiat condimentum. Proin consectetur consequat porttitor. Vivamus bibendum id nisi non ullamcorper. Suspendisse luctus risus ac lectus elementum pellentesque.",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  Comments
+                </h3>,
+                undefined,
+              ],
+              "className": "comments-list",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Comments",
+                },
+                "ref": null,
+                "rendered": "Comments",
+                "type": "h3",
+              },
+              undefined,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="section-wrapper"
+            >
+              <h3>
+                Related blog posts
+              </h3>
+              <div
+                className="links-wrapper"
+              >
+                <a
+                  href="#"
+                >
+                  Sed ullamcorper condimentum mauris
+                </a>
+                <a
+                  href="#"
+                >
+                  Ac tristique ante vestibulum et
+                </a>
+                <a
+                  href="#"
+                >
+                  Ante vestibulum et vestibulum eleifend
+                </a>
+                <a
+                  href="#"
+                >
+                  Tristique tortor In pellentesque
+                </a>
+                <a
+                  href="#"
+                >
+                  Lacus vel imperdiet sed ullamcorper
+                </a>
+                <a
+                  href="#"
+                >
+                  More...
+                </a>
+              </div>
+            </div>,
+            <div
+              className="section-wrapper"
+            >
+              <h3>
+                Not so related blog posts
+              </h3>
+              <div
+                className="links-wrapper"
+              >
+                <a
+                  href="#"
+                >
+                  Sed ullamcorper condimentum mauris
+                </a>
+                <a
+                  href="#"
+                >
+                  Ac tristique ante vestibulum et
+                </a>
+                <a
+                  href="#"
+                >
+                  Ante vestibulum et vestibulum eleifend
+                </a>
+                <a
+                  href="#"
+                >
+                  Tristique tortor In pellentesque
+                </a>
+                <a
+                  href="#"
+                >
+                  Lacus vel imperdiet sed ullamcorper
+                </a>
+                <a
+                  href="#"
+                >
+                  More...
+                </a>
+              </div>
+            </div>,
+          ],
+          "className": "side-info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  Related blog posts
+                </h3>,
+                <div
+                  className="links-wrapper"
+                >
+                  <a
+                    href="#"
+                  >
+                    Sed ullamcorper condimentum mauris
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Ac tristique ante vestibulum et
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Ante vestibulum et vestibulum eleifend
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Tristique tortor In pellentesque
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Lacus vel imperdiet sed ullamcorper
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    More...
+                  </a>
+                </div>,
+              ],
+              "className": "section-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Related blog posts",
+                },
+                "ref": null,
+                "rendered": "Related blog posts",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <a
+                      href="#"
+                    >
+                      Sed ullamcorper condimentum mauris
+                    </a>,
+                    <a
+                      href="#"
+                    >
+                      Ac tristique ante vestibulum et
+                    </a>,
+                    <a
+                      href="#"
+                    >
+                      Ante vestibulum et vestibulum eleifend
+                    </a>,
+                    <a
+                      href="#"
+                    >
+                      Tristique tortor In pellentesque
+                    </a>,
+                    <a
+                      href="#"
+                    >
+                      Lacus vel imperdiet sed ullamcorper
+                    </a>,
+                    <a
+                      href="#"
+                    >
+                      More...
+                    </a>,
+                  ],
+                  "className": "links-wrapper",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Sed ullamcorper condimentum mauris",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "Sed ullamcorper condimentum mauris",
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ac tristique ante vestibulum et",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "Ac tristique ante vestibulum et",
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ante vestibulum et vestibulum eleifend",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "Ante vestibulum et vestibulum eleifend",
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Tristique tortor In pellentesque",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "Tristique tortor In pellentesque",
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Lacus vel imperdiet sed ullamcorper",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "Lacus vel imperdiet sed ullamcorper",
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "More...",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "More...",
+                    "type": "a",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  Not so related blog posts
+                </h3>,
+                <div
+                  className="links-wrapper"
+                >
+                  <a
+                    href="#"
+                  >
+                    Sed ullamcorper condimentum mauris
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Ac tristique ante vestibulum et
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Ante vestibulum et vestibulum eleifend
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Tristique tortor In pellentesque
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Lacus vel imperdiet sed ullamcorper
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    More...
+                  </a>
+                </div>,
+              ],
+              "className": "section-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Not so related blog posts",
+                },
+                "ref": null,
+                "rendered": "Not so related blog posts",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <a
+                      href="#"
+                    >
+                      Sed ullamcorper condimentum mauris
+                    </a>,
+                    <a
+                      href="#"
+                    >
+                      Ac tristique ante vestibulum et
+                    </a>,
+                    <a
+                      href="#"
+                    >
+                      Ante vestibulum et vestibulum eleifend
+                    </a>,
+                    <a
+                      href="#"
+                    >
+                      Tristique tortor In pellentesque
+                    </a>,
+                    <a
+                      href="#"
+                    >
+                      Lacus vel imperdiet sed ullamcorper
+                    </a>,
+                    <a
+                      href="#"
+                    >
+                      More...
+                    </a>,
+                  ],
+                  "className": "links-wrapper",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Sed ullamcorper condimentum mauris",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "Sed ullamcorper condimentum mauris",
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ac tristique ante vestibulum et",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "Ac tristique ante vestibulum et",
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ante vestibulum et vestibulum eleifend",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "Ante vestibulum et vestibulum eleifend",
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Tristique tortor In pellentesque",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "Tristique tortor In pellentesque",
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Lacus vel imperdiet sed ullamcorper",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "Lacus vel imperdiet sed ullamcorper",
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "More...",
+                      "href": "#",
+                    },
+                    "ref": null,
+                    "rendered": "More...",
+                    "type": "a",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="left-side"
+          >
+            <h2>
+              hello
+            </h2>
+            <div
+              className="post-info"
+            >
+              <Author />
+              <div
+                className="separator"
+              >
+                |
+              </div>
+              <PostInfo
+                caption="hello"
+              />
+            </div>
+            <img />
+            <div
+              className="text"
+            >
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id venenatis felis. Integer ullamcorper consectetur nisl, sed faucibus nunc malesuada nec. Praesent in massa ornare, lacinia ex at, lobortis enim. Nullam mi justo, pharetra sit amet mollis quis, viverra quis ex. Nam sit amet euismod mi. Mauris a est in dolor pharetra consectetur vitae vel felis. In eleifend libero vitae sollicitudin vulputate. Aenean feugiat, nunc vel facilisis lacinia, leo elit efficitur erat, et fringilla nunc risus at ipsum.
+              </p>
+              <p>
+                Nunc pulvinar augue et rutrum scelerisque. Morbi cursus dolor nibh, eget suscipit leo iaculis at. Praesent nec nisl ultrices, faucibus dolor a, iaculis erat. Morbi commodo placerat condimentum. Etiam tincidunt eros vitae velit euismod, non imperdiet eros cursus. Duis dolor sapien, tristique nec tincidunt id, semper sit amet felis. Aliquam sit amet purus neque. Pellentesque vitae eros in felis ullamcorper suscipit non eu orci. Integer non aliquam nisl, vitae elementum est. Integer scelerisque orci erat, ac pharetra est pulvinar nec.
+              </p>
+              <p>
+                Vestibulum sollicitudin tellus est, ac ultrices justo iaculis a. Integer eleifend justo a congue iaculis. Nam semper lobortis sollicitudin. Phasellus dolor ex, bibendum nec consequat a, accumsan non tellus. Etiam neque libero, congue quis dui non, fermentum blandit ex. Curabitur luctus mollis nunc eget ultricies. Vivamus id augue vitae felis bibendum ultrices. Nam laoreet eget nisl eu interdum. Phasellus iaculis lacus velit, a aliquet odio semper quis. Donec convallis ut enim sit amet consectetur. Duis finibus arcu at vestibulum vestibulum. Aliquam quis ante nec odio convallis feugiat. Morbi nunc mauris, ultrices nec velit vitae, tincidunt tincidunt nisi.
+              </p>
+              <p>
+                Etiam lobortis posuere sagittis. Pellentesque a gravida justo. Nullam tincidunt tristique lobortis. Phasellus iaculis nisl tristique, finibus nulla ac, efficitur elit. Etiam odio ipsum, dapibus at lorem sed, tincidunt vulputate sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum turpis ac erat facilisis porttitor. Maecenas nibh nibh, pellentesque in condimentum vitae, vehicula in lacus. Maecenas a porttitor sem. Integer at condimentum elit. Praesent semper nisi enim, euismod commodo libero porta non. Sed condimentum elit sit amet feugiat condimentum. Nunc dapibus eros id nisl feugiat condimentum. Proin consectetur consequat porttitor. Vivamus bibendum id nisi non ullamcorper. Suspendisse luctus risus ac lectus elementum pellentesque.
+              </p>
+            </div>
+            <div
+              className="comments-list"
+            >
+              <h3>
+                Comments
+              </h3>
+            </div>
+          </div>,
+          <div
+            className="side-info"
+          >
+            <div
+              className="section-wrapper"
+            >
+              <h3>
+                Related blog posts
+              </h3>
+              <div
+                className="links-wrapper"
+              >
+                <a
+                  href="#"
+                >
+                  Sed ullamcorper condimentum mauris
+                </a>
+                <a
+                  href="#"
+                >
+                  Ac tristique ante vestibulum et
+                </a>
+                <a
+                  href="#"
+                >
+                  Ante vestibulum et vestibulum eleifend
+                </a>
+                <a
+                  href="#"
+                >
+                  Tristique tortor In pellentesque
+                </a>
+                <a
+                  href="#"
+                >
+                  Lacus vel imperdiet sed ullamcorper
+                </a>
+                <a
+                  href="#"
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+            <div
+              className="section-wrapper"
+            >
+              <h3>
+                Not so related blog posts
+              </h3>
+              <div
+                className="links-wrapper"
+              >
+                <a
+                  href="#"
+                >
+                  Sed ullamcorper condimentum mauris
+                </a>
+                <a
+                  href="#"
+                >
+                  Ac tristique ante vestibulum et
+                </a>
+                <a
+                  href="#"
+                >
+                  Ante vestibulum et vestibulum eleifend
+                </a>
+                <a
+                  href="#"
+                >
+                  Tristique tortor In pellentesque
+                </a>
+                <a
+                  href="#"
+                >
+                  Lacus vel imperdiet sed ullamcorper
+                </a>
+                <a
+                  href="#"
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "post-detail",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                hello
+              </h2>,
+              <div
+                className="post-info"
+              >
+                <Author />
+                <div
+                  className="separator"
+                >
+                  |
+                </div>
+                <PostInfo
+                  caption="hello"
+                />
+              </div>,
+              <img />,
+              <div
+                className="text"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id venenatis felis. Integer ullamcorper consectetur nisl, sed faucibus nunc malesuada nec. Praesent in massa ornare, lacinia ex at, lobortis enim. Nullam mi justo, pharetra sit amet mollis quis, viverra quis ex. Nam sit amet euismod mi. Mauris a est in dolor pharetra consectetur vitae vel felis. In eleifend libero vitae sollicitudin vulputate. Aenean feugiat, nunc vel facilisis lacinia, leo elit efficitur erat, et fringilla nunc risus at ipsum.
+                </p>
+                <p>
+                  Nunc pulvinar augue et rutrum scelerisque. Morbi cursus dolor nibh, eget suscipit leo iaculis at. Praesent nec nisl ultrices, faucibus dolor a, iaculis erat. Morbi commodo placerat condimentum. Etiam tincidunt eros vitae velit euismod, non imperdiet eros cursus. Duis dolor sapien, tristique nec tincidunt id, semper sit amet felis. Aliquam sit amet purus neque. Pellentesque vitae eros in felis ullamcorper suscipit non eu orci. Integer non aliquam nisl, vitae elementum est. Integer scelerisque orci erat, ac pharetra est pulvinar nec.
+                </p>
+                <p>
+                  Vestibulum sollicitudin tellus est, ac ultrices justo iaculis a. Integer eleifend justo a congue iaculis. Nam semper lobortis sollicitudin. Phasellus dolor ex, bibendum nec consequat a, accumsan non tellus. Etiam neque libero, congue quis dui non, fermentum blandit ex. Curabitur luctus mollis nunc eget ultricies. Vivamus id augue vitae felis bibendum ultrices. Nam laoreet eget nisl eu interdum. Phasellus iaculis lacus velit, a aliquet odio semper quis. Donec convallis ut enim sit amet consectetur. Duis finibus arcu at vestibulum vestibulum. Aliquam quis ante nec odio convallis feugiat. Morbi nunc mauris, ultrices nec velit vitae, tincidunt tincidunt nisi.
+                </p>
+                <p>
+                  Etiam lobortis posuere sagittis. Pellentesque a gravida justo. Nullam tincidunt tristique lobortis. Phasellus iaculis nisl tristique, finibus nulla ac, efficitur elit. Etiam odio ipsum, dapibus at lorem sed, tincidunt vulputate sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum turpis ac erat facilisis porttitor. Maecenas nibh nibh, pellentesque in condimentum vitae, vehicula in lacus. Maecenas a porttitor sem. Integer at condimentum elit. Praesent semper nisi enim, euismod commodo libero porta non. Sed condimentum elit sit amet feugiat condimentum. Nunc dapibus eros id nisl feugiat condimentum. Proin consectetur consequat porttitor. Vivamus bibendum id nisi non ullamcorper. Suspendisse luctus risus ac lectus elementum pellentesque.
+                </p>
+              </div>,
+              <div
+                className="comments-list"
+              >
+                <h3>
+                  Comments
+                </h3>
+              </div>,
+            ],
+            "className": "left-side",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "hello",
+              },
+              "ref": null,
+              "rendered": "hello",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Author />,
+                  <div
+                    className="separator"
+                  >
+                    |
+                  </div>,
+                  <PostInfo
+                    caption="hello"
+                  />,
+                ],
+                "className": "post-info",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "image": undefined,
+                    "username": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "|",
+                    "className": "separator",
+                  },
+                  "ref": null,
+                  "rendered": "|",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "caption": "hello",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "src": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id venenatis felis. Integer ullamcorper consectetur nisl, sed faucibus nunc malesuada nec. Praesent in massa ornare, lacinia ex at, lobortis enim. Nullam mi justo, pharetra sit amet mollis quis, viverra quis ex. Nam sit amet euismod mi. Mauris a est in dolor pharetra consectetur vitae vel felis. In eleifend libero vitae sollicitudin vulputate. Aenean feugiat, nunc vel facilisis lacinia, leo elit efficitur erat, et fringilla nunc risus at ipsum.
+                  </p>,
+                  <p>
+                    Nunc pulvinar augue et rutrum scelerisque. Morbi cursus dolor nibh, eget suscipit leo iaculis at. Praesent nec nisl ultrices, faucibus dolor a, iaculis erat. Morbi commodo placerat condimentum. Etiam tincidunt eros vitae velit euismod, non imperdiet eros cursus. Duis dolor sapien, tristique nec tincidunt id, semper sit amet felis. Aliquam sit amet purus neque. Pellentesque vitae eros in felis ullamcorper suscipit non eu orci. Integer non aliquam nisl, vitae elementum est. Integer scelerisque orci erat, ac pharetra est pulvinar nec.
+                  </p>,
+                  <p>
+                    Vestibulum sollicitudin tellus est, ac ultrices justo iaculis a. Integer eleifend justo a congue iaculis. Nam semper lobortis sollicitudin. Phasellus dolor ex, bibendum nec consequat a, accumsan non tellus. Etiam neque libero, congue quis dui non, fermentum blandit ex. Curabitur luctus mollis nunc eget ultricies. Vivamus id augue vitae felis bibendum ultrices. Nam laoreet eget nisl eu interdum. Phasellus iaculis lacus velit, a aliquet odio semper quis. Donec convallis ut enim sit amet consectetur. Duis finibus arcu at vestibulum vestibulum. Aliquam quis ante nec odio convallis feugiat. Morbi nunc mauris, ultrices nec velit vitae, tincidunt tincidunt nisi.
+                  </p>,
+                  <p>
+                    Etiam lobortis posuere sagittis. Pellentesque a gravida justo. Nullam tincidunt tristique lobortis. Phasellus iaculis nisl tristique, finibus nulla ac, efficitur elit. Etiam odio ipsum, dapibus at lorem sed, tincidunt vulputate sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum turpis ac erat facilisis porttitor. Maecenas nibh nibh, pellentesque in condimentum vitae, vehicula in lacus. Maecenas a porttitor sem. Integer at condimentum elit. Praesent semper nisi enim, euismod commodo libero porta non. Sed condimentum elit sit amet feugiat condimentum. Nunc dapibus eros id nisl feugiat condimentum. Proin consectetur consequat porttitor. Vivamus bibendum id nisi non ullamcorper. Suspendisse luctus risus ac lectus elementum pellentesque.
+                  </p>,
+                ],
+                "className": "text",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id venenatis felis. Integer ullamcorper consectetur nisl, sed faucibus nunc malesuada nec. Praesent in massa ornare, lacinia ex at, lobortis enim. Nullam mi justo, pharetra sit amet mollis quis, viverra quis ex. Nam sit amet euismod mi. Mauris a est in dolor pharetra consectetur vitae vel felis. In eleifend libero vitae sollicitudin vulputate. Aenean feugiat, nunc vel facilisis lacinia, leo elit efficitur erat, et fringilla nunc risus at ipsum.",
+                  },
+                  "ref": null,
+                  "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id venenatis felis. Integer ullamcorper consectetur nisl, sed faucibus nunc malesuada nec. Praesent in massa ornare, lacinia ex at, lobortis enim. Nullam mi justo, pharetra sit amet mollis quis, viverra quis ex. Nam sit amet euismod mi. Mauris a est in dolor pharetra consectetur vitae vel felis. In eleifend libero vitae sollicitudin vulputate. Aenean feugiat, nunc vel facilisis lacinia, leo elit efficitur erat, et fringilla nunc risus at ipsum.",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Nunc pulvinar augue et rutrum scelerisque. Morbi cursus dolor nibh, eget suscipit leo iaculis at. Praesent nec nisl ultrices, faucibus dolor a, iaculis erat. Morbi commodo placerat condimentum. Etiam tincidunt eros vitae velit euismod, non imperdiet eros cursus. Duis dolor sapien, tristique nec tincidunt id, semper sit amet felis. Aliquam sit amet purus neque. Pellentesque vitae eros in felis ullamcorper suscipit non eu orci. Integer non aliquam nisl, vitae elementum est. Integer scelerisque orci erat, ac pharetra est pulvinar nec.",
+                  },
+                  "ref": null,
+                  "rendered": "Nunc pulvinar augue et rutrum scelerisque. Morbi cursus dolor nibh, eget suscipit leo iaculis at. Praesent nec nisl ultrices, faucibus dolor a, iaculis erat. Morbi commodo placerat condimentum. Etiam tincidunt eros vitae velit euismod, non imperdiet eros cursus. Duis dolor sapien, tristique nec tincidunt id, semper sit amet felis. Aliquam sit amet purus neque. Pellentesque vitae eros in felis ullamcorper suscipit non eu orci. Integer non aliquam nisl, vitae elementum est. Integer scelerisque orci erat, ac pharetra est pulvinar nec.",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Vestibulum sollicitudin tellus est, ac ultrices justo iaculis a. Integer eleifend justo a congue iaculis. Nam semper lobortis sollicitudin. Phasellus dolor ex, bibendum nec consequat a, accumsan non tellus. Etiam neque libero, congue quis dui non, fermentum blandit ex. Curabitur luctus mollis nunc eget ultricies. Vivamus id augue vitae felis bibendum ultrices. Nam laoreet eget nisl eu interdum. Phasellus iaculis lacus velit, a aliquet odio semper quis. Donec convallis ut enim sit amet consectetur. Duis finibus arcu at vestibulum vestibulum. Aliquam quis ante nec odio convallis feugiat. Morbi nunc mauris, ultrices nec velit vitae, tincidunt tincidunt nisi.",
+                  },
+                  "ref": null,
+                  "rendered": "Vestibulum sollicitudin tellus est, ac ultrices justo iaculis a. Integer eleifend justo a congue iaculis. Nam semper lobortis sollicitudin. Phasellus dolor ex, bibendum nec consequat a, accumsan non tellus. Etiam neque libero, congue quis dui non, fermentum blandit ex. Curabitur luctus mollis nunc eget ultricies. Vivamus id augue vitae felis bibendum ultrices. Nam laoreet eget nisl eu interdum. Phasellus iaculis lacus velit, a aliquet odio semper quis. Donec convallis ut enim sit amet consectetur. Duis finibus arcu at vestibulum vestibulum. Aliquam quis ante nec odio convallis feugiat. Morbi nunc mauris, ultrices nec velit vitae, tincidunt tincidunt nisi.",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Etiam lobortis posuere sagittis. Pellentesque a gravida justo. Nullam tincidunt tristique lobortis. Phasellus iaculis nisl tristique, finibus nulla ac, efficitur elit. Etiam odio ipsum, dapibus at lorem sed, tincidunt vulputate sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum turpis ac erat facilisis porttitor. Maecenas nibh nibh, pellentesque in condimentum vitae, vehicula in lacus. Maecenas a porttitor sem. Integer at condimentum elit. Praesent semper nisi enim, euismod commodo libero porta non. Sed condimentum elit sit amet feugiat condimentum. Nunc dapibus eros id nisl feugiat condimentum. Proin consectetur consequat porttitor. Vivamus bibendum id nisi non ullamcorper. Suspendisse luctus risus ac lectus elementum pellentesque.",
+                  },
+                  "ref": null,
+                  "rendered": "Etiam lobortis posuere sagittis. Pellentesque a gravida justo. Nullam tincidunt tristique lobortis. Phasellus iaculis nisl tristique, finibus nulla ac, efficitur elit. Etiam odio ipsum, dapibus at lorem sed, tincidunt vulputate sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum turpis ac erat facilisis porttitor. Maecenas nibh nibh, pellentesque in condimentum vitae, vehicula in lacus. Maecenas a porttitor sem. Integer at condimentum elit. Praesent semper nisi enim, euismod commodo libero porta non. Sed condimentum elit sit amet feugiat condimentum. Nunc dapibus eros id nisl feugiat condimentum. Proin consectetur consequat porttitor. Vivamus bibendum id nisi non ullamcorper. Suspendisse luctus risus ac lectus elementum pellentesque.",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    Comments
+                  </h3>,
+                  undefined,
+                ],
+                "className": "comments-list",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Comments",
+                  },
+                  "ref": null,
+                  "rendered": "Comments",
+                  "type": "h3",
+                },
+                undefined,
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="section-wrapper"
+              >
+                <h3>
+                  Related blog posts
+                </h3>
+                <div
+                  className="links-wrapper"
+                >
+                  <a
+                    href="#"
+                  >
+                    Sed ullamcorper condimentum mauris
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Ac tristique ante vestibulum et
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Ante vestibulum et vestibulum eleifend
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Tristique tortor In pellentesque
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Lacus vel imperdiet sed ullamcorper
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    More...
+                  </a>
+                </div>
+              </div>,
+              <div
+                className="section-wrapper"
+              >
+                <h3>
+                  Not so related blog posts
+                </h3>
+                <div
+                  className="links-wrapper"
+                >
+                  <a
+                    href="#"
+                  >
+                    Sed ullamcorper condimentum mauris
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Ac tristique ante vestibulum et
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Ante vestibulum et vestibulum eleifend
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Tristique tortor In pellentesque
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    Lacus vel imperdiet sed ullamcorper
+                  </a>
+                  <a
+                    href="#"
+                  >
+                    More...
+                  </a>
+                </div>
+              </div>,
+            ],
+            "className": "side-info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    Related blog posts
+                  </h3>,
+                  <div
+                    className="links-wrapper"
+                  >
+                    <a
+                      href="#"
+                    >
+                      Sed ullamcorper condimentum mauris
+                    </a>
+                    <a
+                      href="#"
+                    >
+                      Ac tristique ante vestibulum et
+                    </a>
+                    <a
+                      href="#"
+                    >
+                      Ante vestibulum et vestibulum eleifend
+                    </a>
+                    <a
+                      href="#"
+                    >
+                      Tristique tortor In pellentesque
+                    </a>
+                    <a
+                      href="#"
+                    >
+                      Lacus vel imperdiet sed ullamcorper
+                    </a>
+                    <a
+                      href="#"
+                    >
+                      More...
+                    </a>
+                  </div>,
+                ],
+                "className": "section-wrapper",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Related blog posts",
+                  },
+                  "ref": null,
+                  "rendered": "Related blog posts",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <a
+                        href="#"
+                      >
+                        Sed ullamcorper condimentum mauris
+                      </a>,
+                      <a
+                        href="#"
+                      >
+                        Ac tristique ante vestibulum et
+                      </a>,
+                      <a
+                        href="#"
+                      >
+                        Ante vestibulum et vestibulum eleifend
+                      </a>,
+                      <a
+                        href="#"
+                      >
+                        Tristique tortor In pellentesque
+                      </a>,
+                      <a
+                        href="#"
+                      >
+                        Lacus vel imperdiet sed ullamcorper
+                      </a>,
+                      <a
+                        href="#"
+                      >
+                        More...
+                      </a>,
+                    ],
+                    "className": "links-wrapper",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Sed ullamcorper condimentum mauris",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "Sed ullamcorper condimentum mauris",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Ac tristique ante vestibulum et",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "Ac tristique ante vestibulum et",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Ante vestibulum et vestibulum eleifend",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "Ante vestibulum et vestibulum eleifend",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Tristique tortor In pellentesque",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "Tristique tortor In pellentesque",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Lacus vel imperdiet sed ullamcorper",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "Lacus vel imperdiet sed ullamcorper",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "More...",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "More...",
+                      "type": "a",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    Not so related blog posts
+                  </h3>,
+                  <div
+                    className="links-wrapper"
+                  >
+                    <a
+                      href="#"
+                    >
+                      Sed ullamcorper condimentum mauris
+                    </a>
+                    <a
+                      href="#"
+                    >
+                      Ac tristique ante vestibulum et
+                    </a>
+                    <a
+                      href="#"
+                    >
+                      Ante vestibulum et vestibulum eleifend
+                    </a>
+                    <a
+                      href="#"
+                    >
+                      Tristique tortor In pellentesque
+                    </a>
+                    <a
+                      href="#"
+                    >
+                      Lacus vel imperdiet sed ullamcorper
+                    </a>
+                    <a
+                      href="#"
+                    >
+                      More...
+                    </a>
+                  </div>,
+                ],
+                "className": "section-wrapper",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Not so related blog posts",
+                  },
+                  "ref": null,
+                  "rendered": "Not so related blog posts",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <a
+                        href="#"
+                      >
+                        Sed ullamcorper condimentum mauris
+                      </a>,
+                      <a
+                        href="#"
+                      >
+                        Ac tristique ante vestibulum et
+                      </a>,
+                      <a
+                        href="#"
+                      >
+                        Ante vestibulum et vestibulum eleifend
+                      </a>,
+                      <a
+                        href="#"
+                      >
+                        Tristique tortor In pellentesque
+                      </a>,
+                      <a
+                        href="#"
+                      >
+                        Lacus vel imperdiet sed ullamcorper
+                      </a>,
+                      <a
+                        href="#"
+                      >
+                        More...
+                      </a>,
+                    ],
+                    "className": "links-wrapper",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Sed ullamcorper condimentum mauris",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "Sed ullamcorper condimentum mauris",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Ac tristique ante vestibulum et",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "Ac tristique ante vestibulum et",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Ante vestibulum et vestibulum eleifend",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "Ante vestibulum et vestibulum eleifend",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Tristique tortor In pellentesque",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "Tristique tortor In pellentesque",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Lacus vel imperdiet sed ullamcorper",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "Lacus vel imperdiet sed ullamcorper",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "More...",
+                        "href": "#",
+                      },
+                      "ref": null,
+                      "rendered": "More...",
+                      "type": "a",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

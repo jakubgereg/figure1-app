@@ -1,0 +1,19 @@
+.author {
+  display: inline-block;
+  > div {
+    display: inline-block;
+  }
+
+  .profile {
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .user-name {
+    padding-left: 8px;
+    text-decoration: none;
+  }
+}

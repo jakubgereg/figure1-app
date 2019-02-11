@@ -1,0 +1,53 @@
+@import "../styles/shared.scss";
+
+.app-wrapper {
+  header {
+    &.main-header {
+      text-align: center;
+      margin: 0 auto;
+      > h1 {
+        display: inline-block;
+        font-size: 3rem;
+        padding: 10px;
+        width: 400px;
+        color: $purple-color;
+        border-bottom: 4px solid $purple-alpha;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .main-content-wrapper {
+    margin-bottom: 100px;
+  }
+
+  footer {
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    background-color: $white;
+    right: 0px;
+    color: $dark-gray;
+    padding: 1.8rem 1.5rem 1rem;
+
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 976px;
+    }
+
+    .light-color {
+      color: $super-light-gray;
+    }
+
+    a {
+      color: $dark-gray;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $purple-color;
+      text-decoration: underline;
+    }
+  }
+}
